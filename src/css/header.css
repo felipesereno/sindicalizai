@@ -1,0 +1,17 @@
+header{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top:0;
+    z-index: 10;
+    background-color: #8C0303;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    padding: 0 20px;
+    font-size: 3em;
+    color: white; /* Cor do título */
+}

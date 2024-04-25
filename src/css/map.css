@@ -1,0 +1,75 @@
+.info_container {
+  flex: 1;
+  max-width: 100%;
+  overflow-y: auto;
+  max-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sindicato {
+  width: 80%;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  background-color: #e6e6e6;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+  font-size: medium;
+  padding-bottom: 20px;
+}
+
+.sindicato p{
+  padding-left: 20px;
+  font-size: 1em;
+}
+
+.sindicato h3{
+  margin: 1em;
+}
+
+.sindicato:hover {
+  transform: scale(1.03);
+}
+
+.content_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.map_container {
+  flex: 1;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map_container svg {
+  max-width: 100%;
+  height: auto;
+}
+
+path:hover { 
+  fill: #F28888;
+  cursor: pointer; 
+}
+
+path.selected {
+  fill: #F20505;
+}
+
+.svg-map {
+  stroke: #fff; /* Borda entre estados */
+  stroke-width: 1;
+  fill: #e6e6e6; /* Cor de fundo dos estados */
+  transition: fill 0.3s ease-in-out;
+}
+
+.modal_content{
+  padding: 20px;
+}

@@ -1,0 +1,46 @@
+#manifesto {
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#manifesto p {
+    font-size: 1.5em;
+}
+
+.media-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+#video {
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+
+#video h4 {
+    margin-bottom: 1em;
+}
+
+#galery {
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+}
+
+.slides {
+    display: none;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 5s;
+}
+
+@keyframes fade {
+    from { opacity: .4 }
+    to { opacity: 1 }
+}

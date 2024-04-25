@@ -1,0 +1,38 @@
+@import url("header.css");
+@import url("nav.css");
+@import url("form.css");
+@import url("map.css");
+@import url("footer.css");
+@import url("doc.css");
+@import url("home.css");
+@import url("manifesto.css");
+@import url("responsive.css");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    letter-spacing: -2px;
+}
+
+h2{
+    font-size: 2em;
+    text-align: center;
+    margin: 1em;
+}
+
+h3{
+    font-size: 1.5em;
+    margin: 1em;
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Fonte mais legível */
+    color: #333; /* Cor de fonte mais suave para os olhos */
+    background-color: #f4f4f9; /* Cor de fundo suave */
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,12 @@
+{"nome": "Sindicato dos Metalúrgicos", "cidade": "São Paulo", "estado": "São Paulo", "endereco": "Rua da Indústria, 123", "telefone": "(11) 98765-4321"}
+{"nome": "Sindicato dos Comerciários", "cidade": "Campinas", "estado": "São Paulo", "endereco": "Av. do Comércio, 456", "telefone": "(19) 12345-6789"}
+{"nome": "Sindicato dos Bancários", "cidade": "Rio de Janeiro", "estado": "Rio de Janeiro", "endereco": "Av. Presidente Vargas, 789", "telefone": "(21) 23456-7890"}
+{"nome": "Sindicato de Hotelaria", "cidade": "Niterói", "estado": "Rio de Janeiro", "endereco": "Ladeira dos Tabajaras, 101", "telefone": "(21) 98765-4321"}
+{"nome": "Sindicato dos Professores", "cidade": "Salvador", "estado": "Bahia", "endereco": "Rua da Educação, 202", "telefone": "(71) 34567-8901"}
+{"nome": "Sindicato Rural", "cidade": "Curitiba", "estado": "Paraná", "endereco": "Rua das Culturas, 303", "telefone": "(41) 76543-2109"}
+{"nome": "Sindicato dos Transportes", "cidade": "Manaus", "estado": "Amazonas", "endereco": "Av. das Flores, 404", "telefone": "(92) 87654-3210"}
+{"nome": "Sindicato da Construção Civil", "cidade": "Porto Velho", "estado": "Rondônia", "endereco": "Beco do Mestre, 505", "telefone": "(69) 98765-4321"}
+{"nome": "Sindicato dos Enfermeiros", "cidade": "Cuiabá", "estado": "Mato Grosso", "endereco": "Av. da Saúde, 606", "telefone": "(65) 12345-6789"}
+{"nome": "Sindicato dos Transportes", "cidade": "Porto Alegre", "estado": "Rio Grande do Sul", "endereco": "Rua Grande, 707", "telefone": "(51) 23456-7891"}
+{"nome": "Sindicato dos Trabalhadores Rurais", "cidade": "Pelotas", "estado": "Rio Grande do Sul", "endereco": "Av. Bento Gonçalves, 808", "telefone": "(53) 34567-8910"}
+{"nome": "Sindicato dos Servidores Públicos", "cidade": "Florianópolis", "estado": "Santa Catarina", "endereco": "Praça XV, 909", "telefone": "(48) 45678-9101"}

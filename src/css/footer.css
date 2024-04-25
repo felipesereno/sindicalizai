@@ -1,0 +1,31 @@
+.social img{
+    width: 30px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+}
+
+.social:hover img{
+    filter: invert(27%) sepia(95%) saturate(7437%) hue-rotate(358deg) brightness(100%) contrast(112%);
+}
+
+.navegation img {
+    width: 50px;
+    height: 60px;
+    margin: 5px;
+    filter: grayscale(100%) contrast(1);
+}
+
+.navegation img.active {
+    filter: invert(27%) sepia(95%) saturate(7437%) hue-rotate(358deg) brightness(100%) contrast(112%);
+}
+
+.navegation {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
