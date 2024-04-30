@@ -16,7 +16,7 @@ xhr.onreadystatechange = function () {
             var parser = new DOMParser();
             var htmlDoc = parser.parseFromString(content, 'text/html');
             var imgTag = htmlDoc.querySelector('img');
-            var imageUrl = imgTag ? imgTag.src : 'src/img/default.jpg';
+            var imageUrl = imgTag ? imgTag.src : 'src/img/default.webp';
 
             var itemDiv = document.createElement('div');
             itemDiv.classList.add('carousel-item');

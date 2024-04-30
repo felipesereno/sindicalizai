@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     path.addEventListener("click", function() {
       paths.forEach(p => p.classList.remove("selected"));
       this.classList.add("selected");
-      const stateName = this.getAttribute("title");
+      const stateName = this.getAttribute("id");
       stateNameDisplay.textContent = "Sindicatos de " + stateName;
       carregarSindicatos(stateName);
     });
