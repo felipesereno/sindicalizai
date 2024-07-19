@@ -27,23 +27,21 @@
         <h2>ASSOCIE-SE AO MOVIMENTO LUTA DE CLASSES</h2>
         <p>Tem interesse em fazer parte do MLC e construir o trabalho de base com a gente? Preencha o formulário para que possamos lhe contatar.</p>
         <p>"A emancipação dos trabalhadores será obra dos próprios trabalhadores." - Karl Marx</p>   
-        <form action="inserir.php" method="post">
-            <input type="text" name="nome" minlength="4" maxlength="20" placeholder="Nome completo">
-            <input type="text" name="profissao" minlength="4" maxlength="20" placeholder="Profissão">
-            <!-- Agrupa os botões de rádio juntos -->
-            <div class="radio-group">
-                <input type="radio" id="publico" name="modalidade" value="publico">
-                <label for="publico">Setor público</label>
-                <input type="radio" id="privado" name="modalidade" value="privado">
-                <label for="privado">Setor privado</label>
-            </div>
-            <input type="email" name="email" placeholder="E-mail">
-            <input type="tel" name="telefone" placeholder="(DDD) XXXXX-XXXX">
-            <button name="enviar-cadastro">ENVIAR</button>
-        </form>
+    <form action="inserir.php" method="post">
+        <input type="text" name="nome" minlength="4" maxlength="20" placeholder="Nome completo" required>
+        <input type="text" name="profissao" minlength="4" maxlength="20" placeholder="Profissão" required>
+        <div class="radio-group">
+            <input type="radio" id="publico" name="modalidade" value="publico" required>
+            <label for="publico">Setor público</label>
+            <input type="radio" id="privado" name="modalidade" value="privado" required>
+            <label for="privado">Setor privado</label>
+        </div>
+        <input type="email" name="email" placeholder="E-mail" required>
+        <input type="tel" name="telefone" placeholder="(DDD) XXXXX-XXXX" required>
+        <button type="submit" name="enviar-cadastro">ENVIAR</button>
+    </form>
+
     </section>
-    
-    
     <footer>
         <div class="social">
             <a href="https://www.instagram.com/mlc.rs/"><img src="src/img/instagram.png"  alt="Instagram do MLC RS"></a>
