@@ -1,9 +1,9 @@
 <?php
 
-$host = 'localhost'; // Endereço do servidor MySQL
+$host = 'mysql742.umbler.com'; // Endereço do servidor MySQL
 $db = 'sindicalizai_db'; // Nome do banco de dados
-$user = 'root'; // Nome de usuário do MySQL
-$pass = ''; // Senha do usuário do MySQL
+$user = 'sindical'; // Nome de usuário do MySQL
+$pass = 'senhabanco'; // Senha do usuário do MySQL
 $charset = 'utf8mb4'; // Conjunto de caracteres a ser utilizado
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
