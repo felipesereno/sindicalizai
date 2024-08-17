@@ -8,7 +8,7 @@
     <!--STYLESHEET-->
     <link rel="stylesheet" href="src/css/style.css">
     <!--FAVICON-->
-    <link rel="icon" href="src/img/raise-hand.png">
+    <link rel="icon" href="src/img/raise-hand.png" alt="Ícone de uma mão levantada">
     <script src="src/js/feed.js" defer></script>
 </head>
 <body>
@@ -17,23 +17,25 @@
         <nav>
             <ul>
                 <li><a href="index.php">INÍCIO</a></li>
-                <li><a href="doc.html">PORQUÊ SE SINDICALIZAR</a></li>
+                <li><a href="doc.html">POR QUÊ SE SINDICALIZAR</a></li>
                 <li><a href="map.html">MAPA DE SINDICATOS</a></li>
                 <li><a href="form.php">ASSOCIE-SE AO MLC</a></li>
             </ul>
         </nav>
     </header>
-    <div class="content-container">
-        <div class="half-width">
+    <main class="content-container">
+        <section class="half-width">
             <h2>Sindicalizaí é um projeto desenvolvido pelo Núcleo de Trabalhadores da Informação e Comunicação do Movimento Luta de Classes (MLC) do Rio Grande do Sul e tem o objetivo de ajudar trabalhadores a encontrarem seus sindicatos.</h2>
-        </div>
-        <div class="half-width">
+        </section>
+        <section class="half-width">
             <div id="feed" class="carousel"></div>
-        </div>
-    </div>
+        </section>
+    </main>
     <footer>
         <div class="social">
-            <a href="https://www.instagram.com/mlc.rs/"><img src="src/img/instagram.png"  alt="Instagram do MLC RS"></a>
+            <a href="https://www.instagram.com/mlc.rs/">
+                <img src="src/img/instagram.png" alt="Instagram do MLC RS">
+            </a>
         </div>
     </footer>
 </body>
