@@ -1,4 +1,5 @@
 <?php
+session_start();
 require 'pdo/connection.php'; // Inclui o arquivo de conexão
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['enviar-cadastro'])) {
@@ -10,7 +11,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['enviar-cadastro'])) {
 
     // Validação básica dos dados (adapte conforme necessário)
     if (empty($nome) || empty($profissao) || empty($modalidade) || empty($email) || empty($telefone)) {
-        echo "Por favor, preencha todos os campos.";
+        $_SESSION['message'] = "Por favor, preencha todos os campos.";
+        $_SESSION['message_type'] = "error";
+        header("Location: form.php");
     } else {
         // Mapeando o valor do radio button para o label correspondente
         $modalidade_label = ($modalidade === 'publico') ? 'Setor público' : 'Setor privado';
@@ -26,9 +29,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['enviar-cadastro'])) {
         $stmt->bindParam(':telefone', $telefone);
 
         if ($stmt->execute()) {
-            echo "Dados inseridos com sucesso!";
+            $_SESSION['message'] = "Cadastro realizado com sucesso. Verifique seu email.";
+            $_SESSION['message_type'] = "success";
+            header("Location: form.php");
         } else {
-            echo "Erro ao inserir os dados.";
+            $_SESSION['message'] = "Erro ao inserir os dados.";
+            $_SESSION['message_type'] = "error";
+            header("Location: form.php");
         }
     }
 }

@@ -16,10 +16,10 @@
         <h1>Sindicalizaí</h1>
         <nav>
             <ul>
-                <li><a href="index.html">INÍCIO</a></li>
+                <li><a href="index.php">INÍCIO</a></li>
                 <li><a href="doc.html">PORQUÊ SE SINDICALIZAR</a></li>
                 <li><a href="map.html">MAPA DE SINDICATOS</a></li>
-                <li><a href="form.html">ASSOCIE-SE AO MLC</a></li>
+                <li><a href="form.php">ASSOCIE-SE AO MLC</a></li>
             </ul>
         </nav>
     </header>
